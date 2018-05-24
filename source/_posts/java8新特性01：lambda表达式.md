@@ -82,7 +82,9 @@ public interface Calcator {
     - Supplier -- 供给：无参数传入，返回一个结果，方法为T get()
     - UnaryOperator -- 一元操作符， 继承Function,传入参数的类型和返回类型相同。
     - BinaryOperator -- 二元操作符， 传入的两个参数的类型和返回类型相同， 继承BiFunction
+
 #### 常见的应用场景
+
 - 遍历集合(Iterable接口)
 ```
 List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
