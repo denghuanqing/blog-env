@@ -45,6 +45,7 @@ System.out.println(sss.apply("java niubi"));
 ```
 #### 函数接口（Function Interface）
 lambda表达式依赖于函数接口，它返回的对象就是等同于new 一个接口的实现类，复写其抽象方法。并且支持自定义方法体内容。减少了代码量。
+<!-- more -->
 - 自定义函数接口
 ```
 @FunctionalInterface
